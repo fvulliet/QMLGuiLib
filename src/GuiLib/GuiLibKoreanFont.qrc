@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/qml/GuiLib">
+    <file>qmldir</file>
+
+    <file>fonts/NanumGothic.ttf</file>
+    </qresource>
+</RCC>

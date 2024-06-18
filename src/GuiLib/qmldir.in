@@ -1,0 +1,8 @@
+module GuiLib
+plugin guilibplugin
+classname GuiLibQmlPlugin
+typeinfo plugins.qmltypes
+
+@GUILIB_SINGLETON_QML@
+@GUILIB_PUBLIC_QML@
+@GUILIB_INTERNAL_QML@

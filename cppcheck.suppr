@@ -1,0 +1,4 @@
+// do not manage error on those files
+*:CMakeLists.txt.user
+*:COPYING
+*:TODO

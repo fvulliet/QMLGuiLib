@@ -1,0 +1,410 @@
+<!DOCTYPE QPH>
+<QPH language="fr_FR">
+<phrase>
+    <source></source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>common</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>CONTROLS 1</source>
+    <target>CONTRÔLES 1</target>
+</phrase>
+<phrase>
+    <source>RADIO BUTTONS</source>
+    <target>BOUTONS RADIO</target>
+</phrase>
+<phrase>
+    <source>DISABLED</source>
+    <target>DESACTIVE</target>
+</phrase>
+<phrase>
+    <source>BUTTON2</source>
+    <target>BOUTON2</target>
+</phrase>
+<phrase>
+    <source>BUTTON3</source>
+    <target>BOUTON3</target>
+</phrase>
+<phrase>
+    <source>CHECKBOXES</source>
+    <target>COCHES</target>
+</phrase>
+<phrase>
+    <source>CHECKBOX2</source>
+    <target>COCHE 2</target>
+</phrase>
+<phrase>
+    <source>CHECKBOX3</source>
+    <target>COCHE 3</target>
+</phrase>
+<phrase>
+    <source>SWITCHES</source>
+    <target>INTERRUPTEURS</target>
+</phrase>
+<phrase>
+    <source>SWITCH2</source>
+    <target>INTERRUPTEUR2</target>
+</phrase>
+<phrase>
+    <source>BUTTONS</source>
+    <target>BOUTONS</target>
+</phrase>
+<phrase>
+    <source>FLAT</source>
+    <target>PLAT</target>
+</phrase>
+<phrase>
+    <source>NORMAL</source>
+    <target>NORMAL</target>
+</phrase>
+<phrase>
+    <source>CONTROLS 2</source>
+    <target>CONTRÔLES 2</target>
+</phrase>
+<phrase>
+    <source>DROPDOWN</source>
+    <target>MENU DEROULANT</target>
+</phrase>
+<phrase>
+    <source>label</source>
+    <target>étiquette</target>
+</phrase>
+<phrase>
+    <source>TEXT INPUT</source>
+    <target>SAISIE TEXTE</target>
+</phrase>
+<phrase>
+    <source>numbers only</source>
+    <target>nombres seulement</target>
+</phrase>
+<phrase>
+    <source>placeholder</source>
+    <target>trace</target>
+</phrase>
+<phrase>
+    <source>Item</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>DIAL CONTROL</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>ID</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>TYPE</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>LABEL</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>FACADE</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>EXTENDED MENU</source>
+    <target>MENU ETENDU</target>
+</phrase>
+<phrase>
+    <source>TAB CONTENT</source>
+    <target>CONTENU DE TAB</target>
+</phrase>
+<phrase>
+    <source>tab1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>tab2</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>tab3</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>EXTENDED MENU</source>
+    <target>MENU ETENDU</target>
+</phrase>
+<phrase>
+    <source>EXTEND</source>
+    <target>ETENDRE</target>
+</phrase>
+<phrase>
+    <source>checkbox1</source>
+    <target>coche1</target>
+</phrase>
+<phrase>
+    <source>checkbox2</source>
+    <target>coche2</target>
+</phrase>
+<phrase>
+    <source>checkbox3</source>
+    <target>coche3</target>
+</phrase>
+<phrase>
+    <source>standard</source>
+    <target>standard</target>
+</phrase>
+<phrase>
+    <source>office</source>
+    <target>bureau</target>
+</phrase>
+<phrase>
+    <source>education</source>
+    <target>éducation</target>
+</phrase>
+<phrase>
+    <source>hospitality</source>
+    <target>hôtel</target>
+</phrase>
+<phrase>
+    <source>healthcare</source>
+    <target>santé</target>
+</phrase>
+<phrase>
+    <source>bright</source>
+    <target>clair</target>
+</phrase>
+<phrase>
+    <source>dark</source>
+    <target>sombre</target>
+</phrase>
+<phrase>
+    <source>CONTROLS</source>
+    <target>CONTROLES</target>
+</phrase>
+<phrase>
+    <source>TRANSLATION</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>ICONS</source>
+    <target>ICONES</target>
+</phrase>
+<phrase>
+    <source>ALL</source>
+    <target>TOUTES</target>
+</phrase>
+<phrase>
+    <source>TOUCHBUCO</source>
+    <target>TOUCHBUCO</target>
+</phrase>
+<phrase>
+    <source>COMMON</source>
+    <target>COMMUNES</target>
+</phrase>
+<phrase>
+    <source>CONCEPTS</source>
+    <target>CONCEPTS</target>
+</phrase>
+<phrase>
+    <source>Extended menus</source>
+    <target>Menus étendus</target>
+</phrase>
+<phrase>
+    <source>Horiz. Browser</source>
+    <target>Nav. Horizontal</target>
+</phrase>
+<phrase>
+    <source>Grid Menu</source>
+    <target>Menu grille</target>
+</phrase>
+<phrase>
+    <source>Bigger grid Menu</source>
+    <target>Grand menu grille</target>
+</phrase>
+<phrase>
+    <source>Lists</source>
+    <target>Listes</target>
+</phrase>
+<phrase>
+    <source>Navigation</source>
+    <target>Navigation</target>
+</phrase>
+<phrase>
+    <source>Layout</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>SETTINGS</source>
+    <target>REGLAGES</target>
+</phrase>
+<phrase>
+    <source>Language</source>
+    <target>Langue</target>
+</phrase>
+<phrase>
+    <source>Theme</source>
+    <target>Thème</target>
+</phrase>
+<phrase>
+    <source>HORIZONTAL
+BROWSER</source>
+    <target>NAVIGATION 
+HORIZONTALE</target>
+</phrase>
+<phrase>
+    <source>ALL</source>
+    <target>TOUTES</target>
+</phrase>
+<phrase>
+    <source>INLINE</source>
+    <target>INTEGREE</target>
+</phrase>
+<phrase>
+    <source>ID</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>TYPE</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>LANGUAGE</source>
+    <target>LANGUE</target>
+</phrase>
+<phrase>
+    <source>CHART</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>MAIN MENU CONFIG</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>CALENDAR</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>NO SUB MENU HERE</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>PROGRESS</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>indeterminate</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>start</source>
+    <target>démarrer</target>
+</phrase>
+<phrase>
+    <source>TOUCHBUCO</source>
+    <target>TOUCHBUCO</target>
+</phrase>
+<phrase>
+    <source>THEME</source>
+    <target>THEME</target>
+</phrase>
+<phrase>
+    <source>translation</source>
+    <target>traduction</target>
+</phrase>
+<phrase>
+    <source>SAVE</source>
+    <target>enregistrer</target>
+</phrase>
+<phrase>
+    <source>save</source>
+    <target>enregistrer</target>
+</phrase>
+<phrase>
+    <source>%n function(s) selected</source>
+    <target>%n fonction sélectionnée@%n fonctions sélectionnées</target>
+    <definition>plural</definition>
+</phrase>
+<phrase>
+    <source>%n motor(s) selected</source>
+    <target>%n moteur sélectionné@%n moteurs sélectionnés</target>
+    <definition>plural</definition>
+</phrase>
+<phrase>
+    <source>%n group(s) selected</source>
+    <target>%n groupe sélectionné@%n groupes sélectionnés</target>
+</phrase>
+<phrase>
+    <source>local</source>
+    <target>locale</target>
+    <definition>deals with function</definition>
+</phrase>
+<phrase>
+    <source>local</source>
+    <target>local</target>
+    <definition>deals with sensor</definition>
+</phrase>
+<phrase>
+    <source>start</source>
+    <target>démarrer</target>
+    <definition>deals with action</definition>
+</phrase>
+<phrase>
+    <source>start</source>
+    <target>jouer</target>
+    <definition>deals with scenario</definition>
+</phrase>
+<phrase>
+    <source>start</source>
+    <target>lancer</target>
+    <definition>deals with process</definition>
+</phrase>
+<phrase>
+    <source>direct translation with qsTranslate</source>
+    <target>traduction directe qsTranslate</target>
+    <definition>disambiguation</definition>
+</phrase>
+<phrase>
+    <source>direct translation with qsTr</source>
+    <target>traduction directe qsTr</target>
+    <definition>disambiguation</definition>
+</phrase>
+<phrase>
+    <source>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>start</source>
+    <target>démarrer</target>
+</phrase>
+<phrase>
+    <source>Checkbox</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>TYPOGRAPHY</source>
+    <target>typographie</target>
+</phrase>
+<phrase>
+    <source>This text in DEJA-VU font</source>
+    <target>ce texte dans la fonte DEJA-VU</target>
+</phrase>
+<phrase>
+    <source>default font ; free licence ; good international potential</source>
+    <target>fonte par défaut; licence gratuite; bon potentiel international</target>
+</phrase>
+<phrase>
+    <source>This text in OPEN-SANS font</source>
+    <target>ce texte dans la fonte OPEN-SANS</target>
+</phrase>
+<phrase>
+    <source>apache licence ; bigger international potential</source>
+    <target>licence apache; plus gros potentiel international</target>
+</phrase>
+<phrase>
+    <source>This text in DIN font</source>
+    <target>ce texte dans la fonte DIN</target>
+</phrase>
+<phrase>
+    <source>Somfy communication font</source>
+    <target>fonte pour la communication Somfy</target>
+</phrase>
+</QPH>

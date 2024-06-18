@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/qml/GuiLib">
+    <file>qmldir</file>
+@GUILIB_QRC_RESOURCES@
+    </qresource>
+</RCC>

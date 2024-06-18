@@ -1,0 +1,121 @@
+module GuiLib
+plugin guilibplugin
+classname GuiLibQmlPlugin
+typeinfo plugins.qmltypes
+
+
+singleton Colors 1.0 Colors.qml
+singleton Fonts 1.0 Fonts.qml
+singleton Style 1.0 Style.qml
+
+ActionsMenuHeader 1.0 ActionsMenuHeader.qml
+ActionsMenuTabs 1.0 ActionsMenuTabs.qml
+AppWindow 1.0 AppWindow.qml
+Button 1.0 Button.qml
+ButtonInput 1.0 ButtonInput.qml
+Carousel 1.0 Carousel.qml
+CarouselNav 1.0 CarouselNav.qml
+CheckBox 1.0 CheckBox.qml
+Clickable 1.0 Clickable.qml
+Compass 1.0 Compass.qml
+Compass2 1.0 Compass2.qml
+DataElement 1.0 DataElement.qml
+DataTextValue 1.0 DataTextValue.qml
+DiscoveryItem 1.0 DiscoveryItem.qml
+DraggableScrollBar 1.0 DraggableScrollBar.qml
+Dropdown 1.0 Dropdown.qml
+ExtendedMenuHeader 1.0 ExtendedMenuHeader.qml
+Extensible 1.0 Extensible.qml
+FloatingButton 1.0 FloatingButton.qml
+FocusArea 1.0 FocusArea.qml
+FontIcon 1.0 FontIcon.qml
+FunctionDisplay 1.0 FunctionDisplay.qml
+GridMenu 1.0 GridMenu.qml
+GridMenuCell 1.0 GridMenuCell.qml
+Hole 1.0 Hole.qml
+IconButton 1.0 IconButton.qml
+IconTitle 1.0 IconTitle.qml
+ItemShadow 1.0 ItemShadow.qml
+Layout_3Blocks 1.0 Layout_3Blocks.qml
+LayoutGrid 1.0 LayoutGrid.qml
+Layout_Standard 1.0 Layout_Standard.qml
+KeyboardInput 1.0 KeyboardInput.qml
+Knob 1.0 Knob.qml
+MainMenu 1.0 MainMenu.qml
+MainPage 1.0 MainPage.qml
+Modal 1.0 Modal.qml
+ModalLoader 1.0 ModalLoader.qml
+NavIcon 1.0 NavIcon.qml
+NavHistory 1.0 NavHistory.qml
+NumberSpinBox 1.0 NumberSpinBox.qml
+Page 1.0 Page.qml
+PageLoader 1.0 PageLoader.qml
+ProgressBar 1.0 ProgressBar.qml
+ProgressItem 1.0 ProgressItem.qml
+RadioButton 1.0 RadioButton.qml
+RangeWidget 1.0 RangeWidget.qml
+RemoteBtn 1.0 RemoteBtn.qml
+ScopeList 1.0 ScopeList.qml
+ScrollBar 1.0 ScrollBar.qml
+SfyTextArea 1.0 SfyTextArea.qml
+SfyTextInput 1.0 SfyTextInput.qml
+SubMenu 1.0 SubMenu.qml
+Switch 1.0 Switch.qml
+TableContentItem 1.0 TableContentItem.qml
+TableHeaderItem 1.0 TableHeaderItem.qml
+Tabs 1.0 Tabs.qml
+TaskBarAction 1.0 TaskBarAction.qml
+ThresholdWidget 1.0 ThresholdWidget.qml
+TextSpinBox 1.0 TextSpinBox.qml
+TrText 1.0 TrText.qml
+Popup 1.0 Popup.qml
+CustomDropdown 1.0 CustomDropdown.qml
+ComboBox 1.0 ComboBox.qml
+ListContent 1.0 ListContent.qml
+ListScroller 1.0 ListScroller.qml
+PressedIcon 1.0 PressedIcon.qml
+Clock 1.0 Clock.qml
+SignalLevel 1.0 SignalLevel.qml
+FunctionStatus 1.0 FunctionStatus.qml
+DebugRectangle 1.0 DebugRectangle.qml
+ValueDisplay 1.0 ValueDisplay.qml
+ActionButton 1.0 ActionButton.qml
+Calendar 1.0 Calendar.qml
+ElevationWidget 1.0 ElevationWidget.qml
+TiltingHeader 1.0 TiltingHeader.qml
+BasicInput 1.0 BasicInput.qml
+DateTimePicker 1.0 DateTimePicker.qml
+LinearDatePicker 1.0 LinearDatePicker.qml
+LinearTimePicker 1.0 LinearTimePicker.qml
+LinearDateTimePicker 1.0 LinearDateTimePicker.qml
+StandardText 1.0 StandardText.qml
+PickerElement 1.0 PickerElement.qml
+IconDataPresentation 1.0 IconDataPresentation.qml
+MultiColorFontIcon 1.0 MultiColorFontIcon.qml
+ListTaskBar 1.0 ListTaskBar.qml
+BasicPositionWidget 1.0 BasicPositionWidget.qml
+AdvancedPositionWidget 1.0 AdvancedPositionWidget.qml
+AdvancedAngleWidget 1.0 AdvancedAngleWidget.qml
+Wink 1.0 Wink.qml
+Magnifier 1.0 Magnifier.qml
+TitledRectangle 1.0 TitledRectangle.qml
+IconWatermark 1.0 IconWatermark.qml
+ListCount 1.0 ListCount.qml
+Scheduler 1.0 Scheduler.qml
+DateScheduler 1.0 DateScheduler.qml
+TimeScheduler 1.0 TimeScheduler.qml
+TimeRangeScheduler 1.0 TimeRangeScheduler.qml
+CurrentDateTime 1.0 CurrentDateTime.qml
+DeviceStatusItem 1.0 DeviceStatusItem.qml
+Searchable 1.0 Searchable.qml
+Gauge 1.0 Gauge.qml
+WrappedTableContentItem 1.0 WrappedTableContentItem.qml
+HoverMessage 1.0 HoverMessage.qml
+FontAwesome 1.0 FontAwesome.js
+FontAwesomeBrand 1.0 FontAwesomeBrand.js
+FontAwesomeRegular 1.0 FontAwesomeRegular.js
+FontAwesomeSolid 1.0 FontAwesomeSolid.js
+GoogleMaterial 1.0 GoogleMaterial.js
+SfyIco 1.0 SfyIco.js
+Utils 1.0 Utils.js
+

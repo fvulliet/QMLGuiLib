@@ -1,0 +1,18 @@
+
+set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/doc)
+
+set(DOXYFILE_SOURCE_DIRS ${CMAKE_SOURCE_DIR}/src)
+set(DOXYFILE_OUTPUT_DIR ${CMAKE_BINARY_DIR}/doc)
+
+set(DOXYFILE_LATEX OFF)
+
+find_program(QHELPGENERATOR NAMES qhelpgenerator qhelpgenerator.exe)
+
+if(QHELPGENERATOR)
+    set(DOXYGEN_QCH "YES")
+else(QHELPGENERATOR)
+    set(DOXYGEN_QCH "NO")
+endif(QHELPGENERATOR)
+
+include(UseDoxygen OPTIONAL)
+

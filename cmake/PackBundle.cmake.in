@@ -1,0 +1,30 @@
+
+include(InstallRequiredSystemLibraries)
+
+macro(GET_PATHS VAR)
+    foreach(_FILE ${ARGN})
+        get_filename_component(_FILEPATH "${_FILE}" PATH)
+        set(_PATHS ${_PATHS} "${_FILEPATH}")
+    endforeach()
+    set(${VAR} ${_PATHS})
+endmacro()
+
+get_filename_component(QT_BIN_DIR @QT_QMAKE_EXECUTABLE@ PATH)
+set(DIRS
+    "${QT_BIN_DIR}"
+    "@CMAKE_BINARY_DIR@/src"
+    "@CMAKE_BINARY_DIR@/src/GuiLib"
+    "${DIRS}")
+include(BundleUtilities)
+set(gp_cmd_paths "C:/Program Files/Microsoft Visual Studio 11.0/VC/bin")
+
+set(CMAKE_INSTALL_BINDIR "Runtime/@CMAKE_INSTALL_BINDIR@")
+foreach(APP IN ITEMS @APPS@)
+    if(PACK_INSTALLED)
+            get_filename_component(FILE "${APP}" NAME)
+            file(COPY "${APP}" DESTINATION "$ENV{CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_BINDIR}")
+            fixup_bundle("$ENV{CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_BINDIR}/${FILE}" "" "${DIRS}")
+    else(PACK_INSTALLED)
+        fixup_bundle("${APP}" "" "${DIRS}")
+    endif(PACK_INSTALLED)
+endforeach(APP)

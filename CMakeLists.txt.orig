@@ -1,0 +1,99 @@
+cmake_minimum_required(VERSION 2.8)
+
+cmake_policy(SET CMP0020 NEW)
+if(POLICY CMP0042)
+  cmake_policy(SET CMP0042 NEW)
+endif(POLICY CMP0042)
+if(POLICY CMP0043)
+  cmake_policy(SET CMP0043 NEW)
+endif(POLICY CMP0043)
+
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+
+# EXT_CACHE needed when building ConnectOS for Android
+if (EXT_CACHE)
+    include(ExtCache)
+    message(STATUS "Use of external cache : ${EXT_CACHE}")
+    # Get options
+    load_extern_cache( CACHE_DIR ${EXT_CACHE} VAR_LIST
+      "CMAKE_TOOLCHAIN_FILE" # trying to get android toolchain
+      "CMAKE_PREFIX_PATH" # trying to get Qt path for android
+      )
+else ()
+    message(STATUS "No external cache to use.")
+endif (EXT_CACHE)
+
+project(QMLGuiLib CXX C)
+
+# POKY will overide the CMAKE_MODULE_PATH after project call
+# So make sure the right path is in it
+if (NOT(${CMAKE_MODULE_PATH} MATCHES ".*${CMAKE_SOURCE_DIR}/cmake.*"))
+    set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+endif()
+
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE "Release")
+endif(NOT CMAKE_BUILD_TYPE)
+
+include(GitVersion)
+
+# version in the format 1.0.0
+set(VER_MAJOR 1)
+set(VER_MINOR 0)
+set(VER_PATCH "${GIT_COUNT}")
+set(VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_PATCH}")
+
+message(STATUS "Configuring version: ${VERSION}")
+file(WRITE ${CMAKE_BINARY_DIR}/.version ${VERSION})
+
+# Instruct CMake to run moc automatically when needed.
+set(CMAKE_AUTOMOC True)
+
+option(DOC_ONLY "Only run for Doxygen generation" OFF)
+option(TESTS "Compile and run unit tests" OFF)
+option(QT_QML_DEBUG "Enable QML debugging" OFF)
+option(FIRMWARE_CHECK "Enable firmware validation" OFF)
+
+if(QT_QML_DEBUG)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_QML_DEBUG")
+endif(QT_QML_DEBUG)
+
+if( NOT DOC_ONLY)
+    include(Dependencies)
+    include(QMLScene)
+    include(AddInfoFiles)
+    include(QMLTestRunner)
+    include(CopyFiles)
+    if (ANDROID)
+      include(CreateQtAndroidApk)
+    endif()
+endif( NOT DOC_ONLY)
+
+if (COVERAGE)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage -lgcov")
+endif (COVERAGE)
+
+if(NOT MSVC)
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pedantic")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -Werror -std=gnu++11")
+endif(NOT MSVC)
+
+configure_file("config.h.in" "config.h")
+if( NOT DOC_ONLY)
+  add_subdirectory(src)
+  add_subdirectory(tests)
+  add_subdirectory(examples)
+endif( NOT DOC_ONLY)
+add_subdirectory(doc)
+
+include(Pack)
+
+<<<<<<< HEAD
+set(QML_IMPORT_PATH
+    ${CMAKE_BINARY_DIR}/src
+    ${CMAKE_SOURCE_DIR}/src
+    CACHE STRING "QML Import path for QtCreator" FORCE)
+=======
+set(QML_IMPORT_PATH ${CMAKE_SOURCE_DIR}/qml ${CMAKE_BINARY_DIR}/src CACHE string "" FORCE)
+set(QML2_IMPORT_PATH ${CMAKE_SOURCE_DIR}/qml ${CMAKE_BINARY_DIR}/src CACHE string "" FORCE)
+>>>>>>> ddc5556eb2463061a5583b450fcc54b5e00d766e

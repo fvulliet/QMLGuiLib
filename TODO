@@ -1,0 +1,33 @@
+RadioButton:
+- the color is not updated when changing theme
+- deal with focus: the focus is not taken when clicking with the mouse
+- localization of the label (top, right, left, bottom) could be part of the API
+- add API comments
+
+Checkbox:
+- deal with focus: the focus is not taken when clicking with the mouse
+- localization of the label (top, right, left, bottom) could be part of the API
+- add API comments
+
+Switch:
+- we need a margnin between the inner circle and the border
+- the focus is always centered and doesn't follow the inner circle
+- the inner circle is not draggable with the mouse
+- deal with focus: the focus is not taken when clicking with the mouse
+- localization of the label (top, right, left, bottom) could be part of the API
+- add API comments
+
+Button:
+- deal with focus: the focus is not taken when clicking with the mouse
+- the size of the growing circle (animation) is not big enough
+- glow is not nice
+- add API comments
+
+TextInput:
+- localization of the label (top, right, left, bottom) could be part of the API
+- add API comments
+
+Dropdown:
+- add an animation when clicking on an item
+- distinction editable / non editable is not sexy (separator)
+- display currentItem when opening the list

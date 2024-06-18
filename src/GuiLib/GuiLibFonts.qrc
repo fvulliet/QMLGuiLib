@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/qml/GuiLib">
+    <file>qmldir</file>
+
+    <file>fonts/fontawesome-webfont.ttf</file>
+    <file>fonts/fa-brands-400.ttf</file>
+    <file>fonts/fa-solid-900.ttf</file>
+    <file>fonts/fa-regular-400.ttf</file>
+    <file>fonts/Material-Design-Iconic-Font.ttf</file>
+    <file>fonts/NotoSansDisplay-Regular.ttf</file>
+    <file>fonts/Parachute - PFDinTextPro-Regular.otf</file>
+    <file>fonts/Parachute - PFDinTextPro-Bold.otf</file>
+    <file>fonts/SfyIco.ttf</file>
+    <file>fonts/SomfySans-Bold.ttf</file>
+    <file>fonts/SomfySans-Italic.ttf</file>
+    <file>fonts/SomfySans-Regular.ttf</file>
+    <file>fonts/fa-brands-400.otf</file>
+    <file>fonts/fa-solid-900.otf</file>
+    <file>fonts/fa-regular-400.otf</file>
+    </qresource>
+</RCC>
